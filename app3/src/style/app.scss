@@ -1,0 +1,50 @@
+@import "../style/components/nav";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+h1{
+  margin: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+  color: black; 
+}
+
+.contact_page{
+  min-height: 100vh;
+  // background-color: aqua;
+  padding: 2em;
+display: grid;
+grid-template-columns: .2fr 1fr  ;
+}
+
+.contact_Link{
+ border-radius: 16px;
+  background-color: #2A3238;
+ 
+  height: 40vh;
+  a{
+    color: white;
+   
+    display: flex;
+    flex-direction: column;
+    padding-block:.9em ;
+    padding-inline: 1.5em;
+    justify-content: center;
+  
+  }
+  a:not(a.active){
+ opacity: .5;
+  }
+}
+.contact_Text{
+
+  // background-color: aquamarine;
+  height: 40vh;
+}

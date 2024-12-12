@@ -1,0 +1,29 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 2em;
+    padding-block: 2em;
+   ul{
+    display: flex;
+     gap: 2em;
+  
+    a:not(a.active){
+       
+  
+  opacity: .5;
+    }
+    
+   }
+   button{
+    color: white;
+    background-color: #2A3238;
+    border: none;
+    border-radius: 1em;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+   }
+}
+
+
